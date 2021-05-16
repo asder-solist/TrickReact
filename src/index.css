@@ -1,0 +1,56 @@
+body {
+  background-attachment: fixed;
+  background-image: url(https://images.alphacoders.com/712/thumb-1920-712988.jpg);
+  background-position: top center;
+  background-size: cover;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+:root {
+  --font-size-base-desktop: 13px;
+  --font-size-base-mobile: 13px;
+  --font-main: Helvetica Neue, Arial, Verdana, sans-serif;
+  --font-alt: Open Sans, Helvetica Neue, Arial, Verdana, sans-serif;
+  --font-code: Monaco, Menlo, Consolas, Ubuntu Mono, Courier New, monospace;
+  --font-alt-hadline-letter-spacing: 0.18px;
+  --font-alt-text-letter-spacing: -0.13px;
+  --link-color: #176093;
+  --link-hover-color: #dd5202;
+  --link-active-color: #ff0202;
+  --link-border-color: rgba(23, 96, 147, 0.3);
+  --link-border-hover-color: rgba(221, 82, 2, 0.3);
+  --link-border-active-color: rgba(255, 2, 2, 0.3);
+  --headline-color: #123;
+  --headline-background-color: #e8ebef;
+  --headline-border-color: #d8dde4;
+  --headline-arrow-color: #9da2a8;
+  --top-menu-height: 46px;
+  --color-gold: rgb(179, 163, 76);
+  --color-gold-activate: rgb(255, 217, 0);
+  --color-green: rgb(0, 255, 128);
+  --color-green-activate: rgb(0, 255, 64);
+  --color-red: rgb(223, 49, 49);
+  --color-red-activate: rgb(207, 17, 17);
+
+  --color-name: #2196f3;
+  --color-name-activate: #ff4081;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

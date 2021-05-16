@@ -1,0 +1,29 @@
+.home {
+  height: 100%;
+  max-width: 100%;
+}
+
+.raspisanie {
+  width: 100px;
+  height: 50px;
+  background-color: aqua;
+  color: black;
+  text-align: center;
+  padding-top: 7px;
+}
+.addtask {
+  width: 100px;
+  height: 50px;
+  background-color: aqua;
+  color: black;
+  text-align: center;
+  padding-top: 7px;
+}
+.copytask {
+  width: 100px;
+  height: 50px;
+  background-color: aqua;
+  color: black;
+  text-align: center;
+  padding-top: 7px;
+}

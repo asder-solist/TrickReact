@@ -1,0 +1,128 @@
+.box-init {
+  font-size: large;
+  color: rgb(150, 120, 120);
+  border-radius: 5px;
+
+  border: 2px solid black;
+  padding: 20px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+h4 {
+  width: 45%;
+  text-align: center;
+}
+.inner .inner-record {
+  font-size: 20px;
+  text-align: center;
+  color: pink;
+}
+.inner .inner-type {
+  font-size: 20px;
+  text-align: center;
+  color: pink;
+}
+.inner .inner-trick {
+  font-size: 20px;
+  text-align: center;
+  color: pink;
+}
+.inner .inner-route {
+  font-size: 20px;
+  text-align: center;
+  color: pink;
+}
+
+.inner .inner-time-add {
+  font-size: 20px;
+  text-align: center;
+  color: pink;
+}
+.inner .inner-time {
+  font-size: 20px;
+  text-align: center;
+  color: pink;
+}
+.inner .inner-trick .inner-points {
+  margin: 5px;
+  font-size: 20px;
+  text-align: center;
+  color: pink;
+}
+.inner .inner-record .inner-nick {
+  margin: 5px;
+  font-size: 20px;
+  text-align: center;
+  color: pink;
+}
+.inner .inner-type .inner-typer {
+  margin: 8px;
+  font-size: 20px;
+  text-align: center;
+  color: pink;
+}
+.inner-name-trick {
+  color: rgb(214, 95, 101);
+  margin: 8px;
+  font-size: 20px;
+  text-align: center;
+}
+.inner .inner-time .inner-date {
+  color: rgb(214, 95, 101);
+  margin: 8px;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.inner .inner-route .inner-router {
+  color: rgb(214, 95, 101);
+  margin: 8px;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.inner .inner-record:hover {
+  color: var(--color-gold-activate);
+  transition: 0.2s ease-out;
+  transform: scale(1.5);
+}
+
+.conten-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 1.1em;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+}
+.conten-table thead tr {
+  background-color: rgba(224, 205, 205, 0.15);
+  color: pink;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  max-width: 100%;
+  width: 100%;
+}
+
+.conten-table th,
+.conten-table td {
+  padding: 20px 60px;
+  max-width: 100%;
+  width: 100%;
+}
+
+.conten-table tbody tr:last-of-type {
+  border-bottom: 0px solid rgba(0, 0, 0, 0.25);
+}
+
+.conten-table tr:nth-child(even) {
+  background: rgba(5, 5, 5, 0.15);
+}
+
+.conten-table tr:hover {
+  background-color: rgba(51, 50, 50, 0.25);
+  color: #ffffff;
+}
